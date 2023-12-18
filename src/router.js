@@ -4,7 +4,6 @@ import VueRouter from "vue-router";
 import Profile from "@/modules/pages/Profile.vue";
 
 Vue.use(VueRouter)
-
 export default new VueRouter({
   mode: 'history',
   base: '/newdisk-vue-project/',
