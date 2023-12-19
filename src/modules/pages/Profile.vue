@@ -94,9 +94,6 @@ export default defineComponent({
             listNote :[],
         }
     },
-    computed:{
-
-    },
     mounted(){
         this.getNotes();
     },
