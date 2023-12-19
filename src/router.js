@@ -5,7 +5,7 @@ import Profile from "@/modules/pages/Profile.vue";
 
 Vue.use(VueRouter)
 export default new VueRouter({
-  //mode: 'history',
+  // mode: 'history',
   routes: [
     {
       path: '',
