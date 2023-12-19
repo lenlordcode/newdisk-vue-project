@@ -6,7 +6,7 @@ import Profile from "@/modules/pages/Profile.vue";
 Vue.use(VueRouter)
 export default new VueRouter({
   mode: 'history',
-  base: '/newdisk-vue-project/',
+  base: '/newdisk-vue-project',
   routes: [
     {
       path: '',
