@@ -13,7 +13,7 @@
         </div>
         <div v-if="bottomText" class="el-textarea__bottom-text">
             <div v-if="valdation" class="el-textarea__report">{{textError}}</div>
-            <div v-if="number" class="el-textarea__amount __text_small __color_bittersweet">{{getTextCount()}}/{{ maxlength }}</div>
+            <div v-if="number" class="el-textarea__amount __text_small __color_bittersweet">{{getTextCount}}/{{ maxlength }}</div>
         </div>
     </div>
 </template>

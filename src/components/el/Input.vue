@@ -16,7 +16,7 @@
         </div>
         <div v-if="bottomText" class="el-input__bottom_text">
             <div v-if="valdation" class="el-input__report __text_small __color_bittersweet">{{textError}}</div>
-            <div v-if="number" class="el-input__amount">{{getTextCount()}}/{{maxlength}}</div>
+            <div v-if="number" class="el-input__amount">{{getTextCount}}/{{maxlength}}</div>
         </div>
     </div>
 </template>
